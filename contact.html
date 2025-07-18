@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact SmartResumeScan | Get Support & Resume Help</title>
+    <meta name="description" content="Contact SmartResumeScan for resume optimization support, technical help, or partnership inquiries. We're here to help you succeed in your job search.">
+    <meta name="keywords" content="contact smartresumescan, resume help, technical support, customer service, partnership inquiries">
+    <meta name="author" content="SmartResumeScan">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Contact SmartResumeScan | Get Support & Resume Help">
+    <meta property="og:description" content="Contact us for resume optimization support and technical help.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo.svg" alt="SmartResumeScan Logo" width="40" height="40" class="me-2">
+                <span class="fw-bold text-primary">SmartResumeScan</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="premium.html">Premium</a>
+                    </li>
+                </ul>
+                
+                <!-- Premium Button -->
+                <a href="premium.html" class="btn btn-warning btn-sm fw-bold">
+                    <i class="fas fa-crown me-1"></i>Go Premium
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section py-5 bg-gradient-primary">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="display-4 fw-bold text-white mb-4">Contact Us</h1>
+                        <p class="lead text-white-50">We're here to help you optimize your resume and advance your career</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="contact-form bg-white rounded-3 shadow p-4 p-md-5">
+                            <h2 class="h3 mb-4">Send us a Message</h2>
+                            
+                            <form id="contactForm" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="firstName" class="form-label">First Name *</label>
+                                        <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid first name.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">Last Name *</label>
+                                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid last name.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid email address.
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject *</label>
+                                    <select class="form-select" id="subject" name="subject" required>
+                                        <option value="">Select a subject</option>
+                                        <option value="technical-support">Technical Support</option>
+                                        <option value="resume-help">Resume Optimization Help</option>
+                                        <option value="feature-request">Feature Request</option>
+                                        <option value="partnership">Partnership Inquiry</option>
+                                        <option value="feedback">Feedback</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a subject.
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Tell us how we can help you..."></textarea>
+                                    <div class="invalid-feedback">
+                                        Please provide a message.
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="newsletter" name="newsletter">
+                                    <label class="form-check-label" for="newsletter">
+                                        I'd like to receive resume tips and job search advice via email
+                                    </label>
+                                </div>
+                                
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="privacy" name="privacy" required>
+                                    <label class="form-check-label" for="privacy">
+                                        I agree to the <a href="privacy.html" target="_blank">Privacy Policy</a> and <a href="terms.html" target="_blank">Terms of Service</a> *
+                                    </label>
+                                    <div class="invalid-feedback">
+                                        You must agree to our privacy policy and terms.
+                                    </div>
+                                </div>
+                                
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </form>
+                            
+                            <!-- Success/Error Messages -->
+                            <div id="formSuccess" class="alert alert-success mt-3 d-none">
+                                <i class="fas fa-check-circle me-2"></i>
+                                Thank you for your message! We'll get back to you within 24 hours.
+                            </div>
+                            
+                            <div id="formError" class="alert alert-danger mt-3 d-none">
+                                <i class="fas fa-exclamation-triangle me-2"></i>
+                                There was an error sending your message. Please try again or contact us directly.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Information -->
+                    <div class="col-lg-4">
+                        <div class="contact-info">
+                            <div class="contact-card bg-light rounded-3 p-4 mb-4">
+                                <h3 class="h5 mb-3">
+                                    <i class="fas fa-envelope text-primary me-2"></i>Email Us
+                                </h3>
+                                <p class="mb-2"><strong>General Inquiries:</strong></p>
+                                <p class="text-muted mb-3">hello@smartresumescan.com</p>
+                                <p class="mb-2"><strong>Technical Support:</strong></p>
+                                <p class="text-muted">support@smartresumescan.com</p>
+                            </div>
+                            
+                            <div class="contact-card bg-light rounded-3 p-4 mb-4">
+                                <h3 class="h5 mb-3">
+                                    <i class="fas fa-phone text-primary me-2"></i>Call Us
+                                </h3>
+                                <p class="mb-2"><strong>Support Hotline:</strong></p>
+                                <p class="text-muted mb-3">(555) 123-4567</p>
+                                <p class="small text-muted">
+                                    Monday - Friday: 9:00 AM - 6:00 PM PST<br>
+                                    Saturday: 10:00 AM - 4:00 PM PST
+                                </p>
+                            </div>
+                            
+                            <div class="contact-card bg-light rounded-3 p-4 mb-4">
+                                <h3 class="h5 mb-3">
+                                    <i class="fas fa-map-marker-alt text-primary me-2"></i>Visit Us
+                                </h3>
+                                <address class="text-muted mb-0">
+                                    SmartResumeScan<br>
+                                    123 Business Ave, Suite 100<br>
+                                    San Francisco, CA 94107<br>
+                                    United States
+                                </address>
+                            </div>
+                            
+                            <div class="contact-card bg-light rounded-3 p-4">
+                                <h3 class="h5 mb-3">
+                                    <i class="fas fa-share-alt text-primary me-2"></i>Follow Us
+                                </h3>
+                                <div class="social-links">
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-2 mb-2">
+                                        <i class="fab fa-linkedin me-1"></i>LinkedIn
+                                    </a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm me-2 mb-2">
+                                        <i class="fab fa-twitter me-1"></i>Twitter
+                                    </a>
+                                    <a href="#" class="btn btn-outline-primary btn-sm mb-2">
+                                        <i class="fab fa-facebook me-1"></i>Facebook
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="h1 text-center mb-5">Frequently Asked Questions</h2>
+                        
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faq1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                                        How accurate is the resume scoring system?
+                                    </button>
+                                </h3>
+                                <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Our scoring system is based on industry standards and ATS algorithms used by major companies. While scores provide valuable insights, we recommend using them as guidance alongside our detailed feedback and tips.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faq2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                                        Is my resume data stored on your servers?
+                                    </button>
+                                </h3>
+                                <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        No, we process your resume data in real-time and do not store it on our servers. Your privacy and data security are our top priorities.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faq3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                                        What file formats do you support?
+                                    </button>
+                                </h3>
+                                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        We currently support PDF, DOC, and DOCX file formats. For best results, we recommend using PDF format as it maintains formatting consistency.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faq4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                                        How often should I check my resume score?
+                                    </button>
+                                </h3>
+                                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        We recommend checking your score after making significant changes to your resume or when applying for different types of positions. Each job may require different optimization strategies.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h3 class="accordion-header" id="faq5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                                        Do you offer personalized resume review services?
+                                    </button>
+                                </h3>
+                                <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Currently, we offer automated analysis and scoring. However, we're working on premium services including personalized reviews. Contact us if you're interested in being notified when these services become available.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="h1 mb-3">Still Have Questions?</h2>
+                        <p class="lead text-muted mb-4">Our team is here to help you succeed in your job search</p>
+                        <a href="index.html" class="btn btn-primary btn-lg me-3">
+                            <i class="fas fa-upload me-2"></i>Try Our Resume Checker
+                        </a>
+                        <a href="blog.html" class="btn btn-outline-primary btn-lg">
+                            <i class="fas fa-book me-2"></i>Read Our Blog
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="images/logo.svg" alt="SmartResumeScan" width="30" height="30" class="me-2">
+                        <span class="h5 mb-0">SmartResumeScan</span>
+                    </div>
+                    <p class="text-muted">Helping job seekers get noticed with smart resume tools and ATS optimization.</p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3" title="LinkedIn">
+                            <i class="fab fa-linkedin fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-white me-3" title="Twitter">
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
+                        <a href="#" class="text-white" title="Facebook">
+                            <i class="fab fa-facebook fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">About</a></li>
+                        <li><a href="blog.html" class="text-muted text-decoration-none">Blog</a></li>
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-3 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-3">Legal</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="privacy.html" class="text-muted text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-muted text-decoration-none">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <h6 class="text-uppercase fw-bold mb-3">Contact Info</h6>
+                    <p class="text-muted mb-2">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+                        123 Business Ave, Suite 100<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;San Francisco, CA 94107
+                    </p>
+                    <p class="text-muted mb-2">
+                        <i class="fas fa-envelope me-2"></i>
+                        hello@smartresumescan.com
+                    </p>
+                    <p class="text-muted">
+                        <i class="fas fa-phone me-2"></i>
+                        (555) 123-4567
+                    </p>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">&copy; 2025 SmartResumeScan. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted mb-0">Made with <i class="fas fa-heart text-danger"></i> for job seekers</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/theme-toggle.js"></script>
+    
+    <script>
+        // Contact form validation and submission
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+            const successAlert = document.getElementById('formSuccess');
+            const errorAlert = document.getElementById('formError');
+            
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Bootstrap validation
+                if (!form.checkValidity()) {
+                    e.stopPropagation();
+                    form.classList.add('was-validated');
+                    return;
+                }
+                
+                // Simulate form submission
+                const submitBtn = form.querySelector('button[type="submit"]');
+                const originalText = submitBtn.innerHTML;
+                
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Sending...';
+                
+                // Simulate API call
+                setTimeout(() => {
+                    // Reset form
+                    form.reset();
+                    form.classList.remove('was-validated');
+                    
+                    // Show success message
+                    successAlert.classList.remove('d-none');
+                    errorAlert.classList.add('d-none');
+                    
+                    // Reset button
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = originalText;
+                    
+                    // Scroll to success message
+                    successAlert.scrollIntoView({ behavior: 'smooth' });
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        successAlert.classList.add('d-none');
+                    }, 5000);
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>
